@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="container">
       <NavBar/>
-      <section id="section1" className="main">
+      <section id="section1" style={{padding: "7rem 0"}} className="main">
         <FirstSection/>
         </section>
         <section id="section2" className="main">
