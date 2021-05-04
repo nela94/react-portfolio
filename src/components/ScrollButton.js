@@ -5,8 +5,12 @@ import styles from '../styles/ScrollButton.module.css'
 
 const ScrollButton = () => {
 
+  const handleOnClick = () => {
+    var element = document.getElementById("aboutmecontained");
+    element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+  }
   return (
-    <div className={styles.circlecontainer}>
+    <div onClick={handleOnClick} className={styles.circlecontainer}>
       <span className={styles.circle}>
         <FontAwesomeIcon  className={`${styles.fa}`} icon={faArrowDown} />
       </span>
