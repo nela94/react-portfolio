@@ -1,4 +1,3 @@
-import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown} from '@fortawesome/free-solid-svg-icons';
 import styles from '../styles/ScrollButton.module.css'
@@ -6,8 +5,8 @@ import styles from '../styles/ScrollButton.module.css'
 const ScrollButton = () => {
 
   const handleOnClick = () => {
-    var element = document.getElementById("aboutmecontained");
-    element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+    var element = document.getElementById("section2");
+    element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
   }
   return (
     <div onClick={handleOnClick} className={styles.circlecontainer}>

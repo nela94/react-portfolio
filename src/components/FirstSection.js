@@ -1,6 +1,6 @@
 import ScrollButton from './ScrollButton.js'
 import { motion } from 'framer-motion';
-import styles from '../App.css'
+import '../App.css'
 
 const FirstSection = () => {
   return (
@@ -25,7 +25,7 @@ const FirstSection = () => {
             </div>
           <div style={{paddingTop:'378px'}}>
             <p>Click Below And Learn More About Me</p>
-            <ScrollButton></ScrollButton>
+            <ScrollButton/>
           </div>
         </div>
   )

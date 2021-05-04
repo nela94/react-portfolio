@@ -18,7 +18,7 @@ const ProjectCard = () => {
                 duration: .2
               }
             }}>
-          <img src={petme} alt="Sample photo"/>
+          <img src={petme} alt="petme"/>
           <div className={style.text}>
             <h3>PetMe</h3>
             <a className={style.links} href="https://www.youtube.com/watch?v=FwgQTM4SK8o&feature=youtu.be">Demo      </a>
@@ -35,7 +35,7 @@ const ProjectCard = () => {
                 duration: .2
               }
             }}>
-          <img src={muffins} alt="Sample photo"/>
+          <img src={muffins} alt="muffins"/>
           <div className={style.text}>
             <h3>Muffin Mornings</h3>
             <a className={style.links} href="https://www.youtube.com/watch?v=5ZUTU0HLilU&feature=youtu.be">Demo     </a>
@@ -51,7 +51,7 @@ const ProjectCard = () => {
                 duration: .2
               }
             }}>
-          <img src={frida} alt="Sample photo"/>
+          <img src={frida} alt="frida"/>
           <div className={style.text}>
             <h3>Project0(Frida Kahlo)</h3>
             <a className={style.links} href="https://nela94.github.io/Project0/">Website      </a>
@@ -67,7 +67,7 @@ const ProjectCard = () => {
                 duration: .2
               }
             }}>
-          <img src={realestate} alt="Sample photo"/>
+          <img src={realestate} alt="real estate"/>
           <div className={style.text}>
             <h3>Big Apple Luxury Living</h3>
             <a className={style.links} href="https://www.youtube.com/watch?v=FwgQTM4SK8o&feature=youtu.be">Demo      </a>

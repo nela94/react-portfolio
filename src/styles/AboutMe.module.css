@@ -30,9 +30,18 @@
 }
 
 
+.paragraph {
+  margin-top: 110px;
+  font-size: 20px;
+  padding-right: 80px;
+}
+
 @media (max-width: 600px) {
-  .aboutmain {
-    width: 100%;
-    flex-direction: column;
+  .column {
+    float: none;
+    width:100%;
+  }
+  .paragraph {
+    padding-right: 0px;
   }
 }

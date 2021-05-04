@@ -11,7 +11,7 @@ const AboutMe = () => {
           <img className={styles.imagestyle} src={manu} width={400} height={600} alt="pic of me" />
         </div>
         <div className={styles.column}>
-          <p style={{marginTop: '110px',fontSize:'20px', paddingRight: "80px"}}>I was born and raised in Queens, New York but I also claim my Honduran and Salvadoran roots!
+          <p className={styles.paragraph}>I was born and raised in Queens, New York but I also claim my Honduran and Salvadoran roots!
             Before getting into programming I was in the Real Estate industry, where I started as a receptionist
             and ended up being an agent, all in the span of four years. I loved interacting with all the different type of people
             I encountered but the love of technology always called my name. I joined a bootcamp where I learned Ruby on Rails,
