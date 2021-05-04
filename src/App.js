@@ -6,17 +6,17 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <section id="section1">
+    <div className="container">
+      <section id="section1" className="main">
         <FirstSection></FirstSection>
         </section>
-        <section id="section2">
+        <section id="section2" className="main">
         <AboutMe></AboutMe>
         </section>
-        <section id="section3">
+        <section id="section3" className="main">
         <Projects></Projects>
         </section>
-        <section id="section5">
+        <section id="section5" className="main">
         <ContactMe></ContactMe>
       </section>
     </div>
