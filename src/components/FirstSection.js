@@ -1,8 +1,33 @@
+import ScrollButton from './ScrollButton.js'
+import { motion } from 'framer-motion';
+import styles from '../App.css'
+
 const FirstSection = () => {
   return (
-    <div>
-      <h1>First Section</h1>
-    </div>
+    <div className="main">
+            <div className="bgText">
+            <motion.div initial="hidden" animate="visible" variants={{
+                  hidden: {
+                    scale: .8,
+                    opacity: 0
+                  },
+                  visible: {
+                    scale: 1,
+                    opacity: 1,
+                    transition: {
+                      delay: .6
+                    }
+                  },
+                }}>
+                <h1>Hola! My name is Manuela Sanchez</h1>
+                <p>and I am a Junior Software Engineer</p>
+              </motion.div>
+            </div>
+          <div style={{paddingTop:'378px'}}>
+            <p>Click Below And Learn More About Me</p>
+            <ScrollButton></ScrollButton>
+          </div>
+        </div>
   )
 }
 
