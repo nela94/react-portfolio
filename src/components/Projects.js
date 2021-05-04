@@ -1,8 +1,13 @@
+import ProjectCard from './ProjectCard.js'
+import styles from '../styles/Project.module.css'
+
+
 const Projects = () => {
   return (
-    <div>
-      <h1>Projects</h1>
-    </div>
+      <div className={styles.main}>
+        <h1 style={{paddingBottom: '50px', fontSize:'27px'}}>Check Out My Work</h1>
+        <ProjectCard/>
+      </div>
   )
 }
 
