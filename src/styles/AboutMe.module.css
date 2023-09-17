@@ -25,24 +25,36 @@
   border: 3px solid #f1f1f1;
 }
 
-.imagestyle{
+.imagestyle {
   border-radius: 10%;
 }
 
 
 .paragraph {
-  margin-top: 110px;
+  margin-top: 15px;
   font-size: 20px;
   padding-right: 80px;
 }
 
+.header {
+  padding-bottom: 60px; 
+  font-size: 30px;
+}
+
 @media (max-width: 600px) {
+  .header {
+    padding-bottom: 6px;
+  }
+  .imagestyle {
+    max-width: 50%;
+    height: auto; 
+  }
   .column {
     float: none;
     width:100%;
   }
   .paragraph {
-    padding-right: 0px;
-    padding-left: 10px;
+    padding-right: 10px;
+    padding-left: 20px;
   }
 }
