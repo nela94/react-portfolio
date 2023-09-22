@@ -1,4 +1,4 @@
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import { saveAs } from 'file-saver';
 import styles from '../styles/NavBar.module.css'
 
