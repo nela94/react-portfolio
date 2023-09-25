@@ -1,3 +1,4 @@
+import React from 'react';
 import { motion } from 'framer-motion';
 import frida from '../img/fridakhalo.png'
 import muffins from '../img/morningmuffins.png'

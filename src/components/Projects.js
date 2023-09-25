@@ -1,3 +1,4 @@
+import React from 'react';
 import ProjectCard from './ProjectCard.js'
 import styles from '../styles/Project.module.css'
 

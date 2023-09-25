@@ -1,3 +1,4 @@
+import React from 'react';
 import manu from '../img/manu.jpeg'
 import styles from '../styles/AboutMe.module.css'
 
@@ -12,7 +13,7 @@ const AboutMe = () => {
             </div>
             <div className={styles.column}>
               <p className={styles.paragraph}>
-                Hola! 👋🏽 I'm a proud New Yorker from Queens with strong Honduran and Salvadoran roots. My journey to becoming a software engineer hasn't 
+                Hola! <span role="img" aria-label="Waving Hand Emoji">👋🏽</span> I'm a proud New Yorker from Queens with strong Honduran and Salvadoran roots. My journey to becoming a software engineer hasn't 
                 followed a traditional path. At the age of 18, I landed a job as a receptionist at a Real Estate company, where I was given the opportunity 
                 to develop a career as a Real Estate agent. While the job was fun and enjoyable, I never felt truly fulfilled or "challenged enough". I always 
                 had an interest in technology and was curious about how I could contribute to the IT department when it came to onboarding agents or fixing network issues.

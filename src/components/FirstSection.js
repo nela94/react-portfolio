@@ -1,3 +1,4 @@
+import React from 'react';
 import ScrollButton from './ScrollButton.js'
 import { motion } from 'framer-motion';
 import '../App.css'

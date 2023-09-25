@@ -1,3 +1,4 @@
+import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithubSquare, faMedium } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons'

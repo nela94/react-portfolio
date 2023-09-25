@@ -1,3 +1,4 @@
+import React from 'react';
 import FirstSection from './components/FirstSection.js'
 import AboutMe from './components/AboutMe.js'
 import Projects from './components/Projects.js'
